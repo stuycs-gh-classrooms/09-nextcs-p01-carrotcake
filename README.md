@@ -1,7 +1,7 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/PX83n--N)
 # NeXtCS Project 01
-### Name0: YOUR NAME HERE
-### Name1: TEAMMATE NAME HERE (delete line if working solo)
+### Name0: Isabel Zheng
+### Name1: Sarah Kim 
 ---
 
 ### Overview
@@ -17,7 +17,7 @@ This project will be completed in phases. The first phase will be to work on thi
 
 ## Phase 0: Selection, Analysis & Plan
 
-#### Selected Project: CHOOSE WISELY
+#### Selected Project: Cellular Automata (Conway's Game of Life) 
 
 ### Necessary Features
 What are the core features that your program should have? These should be things that __must__ be implemented in order to make the program useable/playable, not extra features that could be added to make the program more interesting/fun.
