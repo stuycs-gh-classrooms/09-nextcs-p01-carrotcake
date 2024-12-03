@@ -34,9 +34,11 @@ How will you be using arrays in this project?
 
 1D Array:
 - 1D Arrays can find the neighbors surrounding a single patch. Also, the 1D array can also help control colors if implemented.
+- USE: To determine status of neighbors
 
 2D Array:
 - 2D Arrays are going to be used to control the columns and rows in the whole automata. It will help locate each cell and corporate with the 1D Arrays to work with neighbors.
+- USE: To populate the world with cells
 
 
 ### Controls
@@ -55,12 +57,12 @@ What classes will you be creating for this project? Include the instance variabl
 
 CLASS MainFrame
 - Instance variables:
-  - LIST INSTANCE VARS HERE
+  - 
 - METHODS
   - LIST METHODS HERE
 
 CLASS Cell
 - Instance variables:
-  - LIST INSTANCE VARS HERE
+  - 
 - METHODS
   - LIST METHODS HERE
