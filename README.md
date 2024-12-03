@@ -33,33 +33,33 @@ Other than the primary automata, there needs to be additional randomization cell
 How will you be using arrays in this project?
 
 1D Array:
-- YOUR ANSER HERE
+- 1D Arrays can find the neighbors surrounding a single patch. Also, the 1D array can also help control colors if implemented.
 
 2D Array:
-- YOUR ANSWER HERE
+- 2D Arrays are going to be used to control the columns and rows in the whole automata. It will help locate each cell and corporate with the 1D Arrays to work with neighbors.
 
 
 ### Controls
 How will your program be controlled? List all keyboard commands and mouse interactions.
 
 Keyboard Commands:
-- LIST OF COMMANDS HERE
+- SPACE BAR -- pause + begin
 
 Mouse Control:
-- Mouse movement:
-- Mouse pressed:
+- Mouse movement: restricted
+- Mouse pressed: The cells surrounding the mouse pressed will be randomly switched to a live status.
 
 
 ### Classes
 What classes will you be creating for this project? Include the instance variables and methods that you believe you will need. You will be required to create at least 2 different classes. If you are going to use classes similar to those we've made for previous assignments, you will have to add new features to them.
 
-CLASS NAME0
+CLASS MainFrame
 - Instance variables:
   - LIST INSTANCE VARS HERE
 - METHODS
   - LIST METHODS HERE
 
-CLASS NAME1
+CLASS Cell
 - Instance variables:
   - LIST INSTANCE VARS HERE
 - METHODS
