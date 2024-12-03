@@ -65,11 +65,11 @@ CLASS MainFrame
   - patchx
   - patchy
 - METHODS
-  - LIST METHODS HERE
+  - void display()
 
 CLASS Cell
 - Instance variables:
   - cellx
   - celly
 - METHODS
-  - LIST METHODS HERE
+  - void birth()
