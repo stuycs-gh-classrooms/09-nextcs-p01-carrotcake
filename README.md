@@ -28,6 +28,7 @@ In order to recreate Conway's game of life and other extensions in Java, we will
 What are some features that are not essential to the program, but you would like to see (provided you have time after completing the necessary features. Theses can be customizations that are not part of the core requirements.
 
 Other than the primary automata, there needs to be additional randomization cell setups to make spawning images. By controlling the patterns of spawning, we could attempt to create  tessalations tiles (but less structured). 
+- Change color of Live Cells (Left-Right Keys)
 
 ### Array Usage
 How will you be using arrays in this project?
@@ -46,6 +47,10 @@ How will your program be controlled? List all keyboard commands and mouse intera
 
 Keyboard Commands:
 - SPACE BAR -- pause + begin
+- DOWN -- switch simulation
+- LEFT-RIGHT -- switch colors
+- BACKSPACE -- setup blank
+- ENTER -- setup random
 
 Mouse Control:
 - Mouse movement: restricted
