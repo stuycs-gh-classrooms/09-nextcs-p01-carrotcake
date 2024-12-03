@@ -62,12 +62,14 @@ What classes will you be creating for this project? Include the instance variabl
 
 CLASS MainFrame
 - Instance variables:
-  - 
+  - patchx
+  - patchy
 - METHODS
   - LIST METHODS HERE
 
 CLASS Cell
 - Instance variables:
-  - 
+  - cellx
+  - celly
 - METHODS
   - LIST METHODS HERE
