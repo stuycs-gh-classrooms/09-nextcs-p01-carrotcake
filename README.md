@@ -20,18 +20,13 @@ This project will be completed in phases. The first phase will be to work on thi
 #### Selected Project: Cellular Automata (Conway's Game of Life) 
 
 ### Necessary Features
-What are the core features that your program should have? These should be things that __must__ be implemented in order to make the program useable/playable, not extra features that could be added to make the program more interesting/fun.
-
 In order to recreate Conway's game of life and other extensions in Java, we will reference the Python code provided through NetLogo. By implementing functions that NetLogo simplified at the core, we will be able to build a setup and various booleans (setting the living status of different cells). To add, there needs to be a function to randomize the spawning cells and control the neighbors surrounding each live cell.
 
 ### Extra Features
-What are some features that are not essential to the program, but you would like to see (provided you have time after completing the necessary features. Theses can be customizations that are not part of the core requirements.
-
 Other than the primary automata, there needs to be additional randomization cell setups to make spawning images. By controlling the patterns of spawning, we could attempt to create  tessalations tiles (but less structured). 
 - Change color of Live Cells (Left-Right Keys)
 
 ### Array Usage
-How will you be using arrays in this project?
 
 1D Array:
 - 1D Arrays can find the neighbors surrounding a single patch. Also, the 1D array can also help control colors if implemented.
@@ -43,7 +38,6 @@ How will you be using arrays in this project?
 
 
 ### Controls
-How will your program be controlled? List all keyboard commands and mouse interactions.
 
 Keyboard Commands:
 - SPACE BAR -- pause + begin
@@ -58,18 +52,18 @@ Mouse Control:
 
 
 ### Classes
-What classes will you be creating for this project? Include the instance variables and methods that you believe you will need. You will be required to create at least 2 different classes. If you are going to use classes similar to those we've made for previous assignments, you will have to add new features to them.
 
 CLASS MainFrame
 - Instance variables:
-  - patchx
-  - patchy
+  - int cols, int rows
 - METHODS
-  - void display()
-
+  - createFrame()
+  - display()
+  
 CLASS Cell
 - Instance variables:
-  - cellx
-  - celly
+  - int x, int y
+  - color
+  - boolean isAlive
 - METHODS
   - void birth()
