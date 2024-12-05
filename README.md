@@ -50,7 +50,7 @@ Keyboard Commands:
 - DOWN -- switch simulation
 - LEFT-RIGHT -- switch colors
 - BACKSPACE -- setup blank
-- ENTER -- setup random
+- 'R' -- setup random
 
 Mouse Control:
 - Mouse movement: restricted
